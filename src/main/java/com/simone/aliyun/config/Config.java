@@ -7,20 +7,17 @@ import java.util.Properties;
 @Data
 public class Config {
 
-    private String endpoint;
+    private String ossendpoint;
+
+    private String mnsendpoint;
 
     private String bucketName;
 
-    private String producerId;
-
-    private String ONSAddr;
-
     public static Config getConfig(Properties properties) {
         Config config = new Config();
-        config.setEndpoint(properties.getProperty("endpoint"));
+        config.setOssendpoint(properties.getProperty("oss-endpoint"));
+        config.setMnsendpoint(properties.getProperty("mns-endpoint"));
         config.setBucketName(properties.getProperty("bucketName"));
-        config.setProducerId(properties.getProperty("producerId"));
-        config.setONSAddr(properties.getProperty("ONSAddr"));
         return config;
     }
 }

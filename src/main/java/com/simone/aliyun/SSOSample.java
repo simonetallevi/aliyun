@@ -56,7 +56,7 @@ public class SSOSample {
         secret = propertyManager.getSecret();
         config = propertyManager.getConfig();
 
-        OSS client = new OSSClientBuilder().build(config.getEndpoint(), secret.getAccessKeyId(), secret.getAccessKeySecret());
+        OSS client = new OSSClientBuilder().build(config.getOssendpoint(), secret.getAccessKeyId(), secret.getAccessKeySecret());
 
         try {
 

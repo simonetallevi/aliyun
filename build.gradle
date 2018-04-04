@@ -17,5 +17,6 @@ dependencies {
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
 
     compile group: 'com.aliyun.oss', name: 'aliyun-sdk-oss', version: '3.1.0'
-    compile group: 'com.aliyun.openservices', name: 'ons-client', version: '1.7.5.Final'
+    compile group: 'com.aliyun.mns', name: 'aliyun-sdk-mns', version: '1.1.8.4'
+
 }
