@@ -1,4 +1,4 @@
-package com.simone.aliyun.config;
+package com.simone.aliyun.core.config;
 
 import lombok.Data;
 

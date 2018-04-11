@@ -1,2 +1,6 @@
 rootProject.name = 'aliyun'
+include 'aliyun-core',
+        'function-compute-example',
+        'message-service-example',
+        'object-storage-service-example'
 

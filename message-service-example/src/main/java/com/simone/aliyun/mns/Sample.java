@@ -1,4 +1,4 @@
-package com.simone.aliyun;
+package com.simone.aliyun.mns;
 
 import com.aliyun.mns.client.CloudAccount;
 import com.aliyun.mns.client.CloudQueue;
@@ -6,16 +6,16 @@ import com.aliyun.mns.client.MNSClient;
 import com.aliyun.mns.common.ClientException;
 import com.aliyun.mns.common.ServiceException;
 import com.aliyun.mns.model.Message;
-import com.simone.aliyun.config.Config;
-import com.simone.aliyun.config.PropertyManager;
-import com.simone.aliyun.config.Secret;
+import com.simone.aliyun.core.config.Config;
+import com.simone.aliyun.core.config.PropertyManager;
+import com.simone.aliyun.core.config.Secret;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.util.UUID;
 
 @Slf4j
-public class MNSSample {
+public class Sample {
 
     private static Config config;
 
